@@ -249,7 +249,6 @@ Contains:
 - OpenCV
 - NumPy
 - Matplotlib
----
 - PyTorch
 
 ---
