@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a **YOLOv11-based Brain Tumor Detection and Classification System** for MRI scans. The model is trained to detect and classify three major brain tumor types:
+This project implements a **YOLOv26-based Brain Tumor Detection and Classification System** for MRI scans. The model is trained to detect and classify three major brain tumor types:
 
 - Glioma
 - Meningioma
@@ -23,7 +23,7 @@ The system performs **object detection and localization**, providing both the tu
 - Pituitary
 
 ✅ Real-time inference capability  
-✅ High detection accuracy using YOLOv11  
+✅ High detection accuracy using YOLOv26  
 ✅ Training and validation visualization support  
 ✅ Confusion matrix and F1-score analysis
 
@@ -65,7 +65,7 @@ dataset/
 
 ## Model Architecture
 
-This project uses **YOLOv11 Object Detection** architecture.
+This project uses **YOLOv26 Object Detection** architecture.
 
 ### Advantages
 
@@ -89,7 +89,7 @@ pip install ultralytics
 
 ```bash
 yolo detect train \
-    model=yolo11n.pt \
+    model=yolo26n.pt \
     data=data.yaml \
     epochs=100 \
     imgsz=640
@@ -183,7 +183,7 @@ Confidence: 0.94
 ---
 
 ## Evaluation Metrics
-
+[https://github.com/Gourab-Chowdhury/Brain-Tumor-Detection-using-YOLO/blob/main/Result%20Images/confusion_matrix_normalized.png]
 | Metric | Value |
 |----------|----------|
 | Best F1 Score | 0.89 |
@@ -242,7 +242,7 @@ Contains:
 ## Technologies Used
 
 - Python
-- YOLOv11
+- YOLOv26
 - Ultralytics
 - OpenCV
 - NumPy
