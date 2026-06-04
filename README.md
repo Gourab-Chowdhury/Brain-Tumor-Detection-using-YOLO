@@ -112,7 +112,7 @@ yolo detect val \
 ## Results
 
 ### F1-Confidence Curve
-
+![F1 Confidence](https://github.com/Gourab-Chowdhury/Brain-Tumor-Detection-using-YOLO/blob/main/Result%20Images/BoxF1_curve.png)
 The model achieves its best overall performance at approximately:
 
 - **F1 Score:** 0.89
@@ -127,6 +127,7 @@ Observations:
 ---
 
 ### Confusion Matrix Analysis
+![Confusion Matrix](https://github.com/Gourab-Chowdhury/Brain-Tumor-Detection-using-YOLO/blob/main/Result%20Images/confusion_matrix_normalized.png)
 
 #### Glioma
 
@@ -183,7 +184,7 @@ Confidence: 0.94
 ---
 
 ## Evaluation Metrics
-[https://github.com/Gourab-Chowdhury/Brain-Tumor-Detection-using-YOLO/blob/main/Result%20Images/confusion_matrix_normalized.png]
+
 | Metric | Value |
 |----------|----------|
 | Best F1 Score | 0.89 |
@@ -194,6 +195,7 @@ Confidence: 0.94
 
 ---
 
+![Classified](https://github.com/Gourab-Chowdhury/Brain-Tumor-Detection-using-YOLO/blob/main/Result%20Images/val_batch0_labels.jpg)
 ## Inference
 
 Run prediction on an MRI image:
